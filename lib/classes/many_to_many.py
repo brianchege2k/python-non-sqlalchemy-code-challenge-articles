@@ -7,7 +7,7 @@ class Article:
         self.title = title
         Article.all.append(self)
 
-    @property
+    @property #Decorator to define a method as a property
     def title (self):
         return self._title
     
@@ -46,7 +46,7 @@ class Article:
         else:
             TypeError("Magazine must be an instance of Magazine")
             
-    def __repr__(self):
+    def __repr__(self): #method for string representation  
        return f'<Article: author={self.author.name}, magazine={self.magazine.name}, title="{self.title}">'
         
 class Author:
