@@ -1,3 +1,5 @@
+![Pytest Gif](https://github.com/brianchege2k/pytest_gifs/blob/main/Screencast%20from%202024-06-11%2013-08-30.gif)
+
 # Phase 3 Code Challenge: Articles - without SQLAlchemy (Updated)
 
 In this code challenge, you will be working with a Magazine domain.
